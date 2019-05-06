@@ -18,8 +18,8 @@ import com.fasterxml.jackson.databind.JsonNode;
 
 
 @RestController
-@RequestMapping("/v2/chain")
-public class V2PushController {
+@RequestMapping("/v1/chain")
+public class PushController {
 
     private static Logger LOGGER = LoggerFactory.getLogger(ApiService.class);
 
